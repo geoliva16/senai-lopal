@@ -1,0 +1,21 @@
+{
+  "name": "senai-lopal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoliva16/senai-lopal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/geoliva16/senai-lopal/issues"
+  },
+  "homepage": "https://github.com/geoliva16/senai-lopal#readme"
+}
