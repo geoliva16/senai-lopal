@@ -27,4 +27,3 @@ O JavaScript compara textos (strings) letra por letra, igualzinho a um dicionár
 * **Exemplo:** "apple" \< "banana" é true porque o 'a' vem antes do 'b'.  
 
   <img width="385" height="488" alt="Captura de tela 2026-10-02 142927" src="https://github.com/user-attachments/assets/dab0554c-410d-48bc-93c1-1bbaf426ab91" />
-
