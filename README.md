@@ -32,7 +32,7 @@ O JavaScript compara textos (strings) letra por letra, igualzinho a um dicionár
 
 ## **\- O que é falsy**
 
-* ## Em JavaScript, valores falsy são valores que são considerados falsos quando avaliados em um contexto booleano (como em condicionais if ou loops).
+* Em JavaScript, valores falsy são valores que são considerados falsos quando avaliados em um contexto booleano (como em condicionais if ou loops).
 
 * ## Existem 8 valores falsy em JavaScript:
 
@@ -72,4 +72,31 @@ O JavaScript compara textos (strings) letra por letra, igualzinho a um dicionár
 
 * Sem coerção: Diferente da função global isNaN(), que converte strings ou objetos em número antes de testar (gerando falsos positivos), o Number.isNaN() checa o tipo e o valor exato.  
 * Checagem direta: Ele retorna true apenas se o item avaliado for o primitivo numérico NaN.
-* <img width="553" height="744" alt="Captura de tela 2026-10-02 150556" src="https://github.com/user-attachments/assets/649f2220-ba4b-4f57-9925-b1dd5273ab93" />
+  <img width="553" height="744" alt="Captura de tela 2026-10-02 150556" src="https://github.com/user-attachments/assets/649f2220-ba4b-4f57-9925-b1dd5273ab93" />
+
+**Desafio 12 \- Operador ternário**
+
+O **operador ternário** é uma forma enxuta de escrever um if...else em uma única linha. A estrutura é a seguinte:
+
+$condição?valorseverdadeiro:valorsefalso$
+
+### 
+
+### **\- Expressão vs. Instrução**
+
+* **Expressão (Expression):** É qualquer código que **gera um valor**. Como ele "vira" um dado no final, você consegue salvar em variáveis ou passar para outros lugares.  
+  * *Exemplos:* 5 \+ 2, "Olá", idade \>= 18 e o próprio operador ternário.  
+* **Instrução (Statement):** É um comando que **executa uma ação**, mas não produz um valor por si só.  
+  * *Exemplos:* if...else, for, while.
+
+### **\- Por que o ternário entra no console.log e o if não?**
+
+Funções como console.log() e as *template strings* (\${...}) exigem passar **valores** para elas.
+
+Como o ternário é uma **expressão**, o JavaScript o calcula rapidamente, transforma no resultado final e entrega esse valor direto para a função ou texto. Já o if é uma **instrução** (um bloco de controle de fluxo) — o JavaScript simplesmente não consegue converter um bloco de regras em um dado concreto para imprimir na tela.
+
+### **\- Ternários Aninhados**
+
+É possível encadear ternários para simular um if ... else if ... else, trocando a resposta do "senão" por uma nova condição:
+<img width="774" height="740" alt="Captura de tela 2026-10-02 165328" src="https://github.com/user-attachments/assets/d2b58179-4cda-4086-971a-83b30d1d77c7" />
+
