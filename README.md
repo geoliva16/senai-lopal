@@ -74,7 +74,7 @@ O JavaScript compara textos (strings) letra por letra, igualzinho a um dicionár
 * Checagem direta: Ele retorna true apenas se o item avaliado for o primitivo numérico NaN.
   <img width="553" height="744" alt="Captura de tela 2026-10-02 150556" src="https://github.com/user-attachments/assets/649f2220-ba4b-4f57-9925-b1dd5273ab93" />
 
-**Desafio 12 \- Operador ternário**
+#**Desafio 12 \- Operador ternário**#
 
 O **operador ternário** é uma forma enxuta de escrever um if...else em uma única linha. A estrutura é a seguinte:
 
